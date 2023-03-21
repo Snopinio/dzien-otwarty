@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+#fota {
+text-align: center;
+}
 body {
     font-family: "Lato", sans-serif;
     color: #03295a;
@@ -18,11 +21,10 @@ h2 {
     text-align: center;
     font-family: "Amatic SC", sans-serif;
     font-size: 2rem;
-
+    color: #03295a;
 }
 div#titleDetails{
-    text-align: center;
-    
+    text-align: center;    
     font-size: larger;
     font-weight: bold;
 }
@@ -40,4 +42,5 @@ div.sectionImage > img {
 div.sectionContent {
     flex: 1;
     padding: 20px;
+    color:rgb(197,0,0) ;
 }
